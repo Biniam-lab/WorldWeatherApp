@@ -1,0 +1,60 @@
+.card{
+    background-color: var(--card-color);
+    box-shadow: 0px 0px 20px 15px rgba(255,255,255,0.4);
+}
+
+.weather-image{
+    width: 75px;
+    height: 75px;
+}
+
+.localtime{
+    color: var(--background-color);
+}
+
+.city{
+    color: var(--background-color);
+    font-weight: 500;
+}
+
+.box-1, .box-2{
+    border: 2px solid slategrey;
+    border-radius: 10px;
+    background-color: var(--box-color);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 576px){
+    .container-1{
+        flex: 0 0 auto;
+        max-width: 100%;
+        text-align: center;
+    }
+    .container-2{
+        flex: 0 0 auto;
+        max-width: 100%;
+        text-align: center;
+    }
+    .box-1, .box-2{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .container-1{
+        flex: 0 0 auto;
+        max-width: 50%;
+    }
+    .container-2{
+        flex: 0 0 auto;
+        max-width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .container-2{
+        flex: 0 0 auto;
+        max-width: 50%;
+    }
+}

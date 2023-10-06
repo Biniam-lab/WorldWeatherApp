@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --background-color : #013243;
+    --card-color: hsl(240, 67%, 94%);
+    --box-color: hsl(240, 67%, 91%);
+}
+
+body {
+    background-color:var(--background-color) !important;
+}
